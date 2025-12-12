@@ -36,6 +36,6 @@ def caesar(original_text, shift_amount, direction):
         else:
             continue
     result = "".join(text_lst)
-    print(result)
+    print(f"Here is the {direction}d result: {result}")
 
 caesar(text, shift, direction)
